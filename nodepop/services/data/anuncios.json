@@ -1,0 +1,61 @@
+{
+  "anuncios": [
+    {
+      "nombre": "iPhone 14",
+      "venta": false,
+      "precio": 1400.0,
+      "foto": "iphone.png",
+      "tags": ["work", "mobile"]
+    },
+    {
+      "nombre": "Bicicleta",
+      "venta": true,
+      "precio": 560.0,
+      "foto": "bici.jpg",
+      "tags": ["lifestyle", "motor"]
+    },
+
+    {
+      "nombre": "Teclado",
+      "venta": true,
+      "precio": 105.0,
+      "foto": "teclado.png",
+      "tags": ["work", "lifestyle"]
+    },
+    {
+      "nombre": "Mouse",
+      "venta": false,
+      "precio": 16.0,
+      "foto": "mouse.png",
+      "tags": ["work", "lifestyle"]
+    },
+    {
+      "nombre": "Audifonos Sony",
+      "venta": true,
+      "precio": 64.0,
+      "foto": "audifonos.png",
+      "tags": ["lifestyle"]
+    },
+    {
+      "nombre": "Cubo rubik",
+      "venta": true,
+      "precio": 6.0,
+      "foto": "cubo_rubik.jpg",
+      "tags": ["lifestyle"]
+    },
+    {
+      "nombre": "Smartwatch",
+      "venta": true,
+      "precio": 25.0,
+      "foto": "smartwatch.png",
+      "tags": ["mobile", "lifestyle"]
+    },
+    {
+      "nombre": "Mochila",
+      "venta": false,
+      "precio": 24.99,
+      "foto": "mochila.png",
+      "tags": ["work", "lifestyle"]
+    }
+  ]
+}

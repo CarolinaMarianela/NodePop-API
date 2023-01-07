@@ -1,9 +1,40 @@
-var express = require('express');
-var router = express.Router();
+'use strict';
+
+const express = require('express');
+const router = express.Router();
+const anuncioController = require('../apiServices/anuncios/controller');
+const anuncios = require('../apiServices/anuncios/routes');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', async function (req, res, next) {
+  try {
+    const skip = parseInt(req.query.start);
+    const limit = parseInt(req.query.limit);
+    const sort = req.query.sort;
+    const venta = req.query.venta;
+    const tags = req.query.tags;
+    const filter = {};
+    if (venta) {
+      filter.venta = venta;
+    }
+    if (tags) {
+      filter.tags = tags;
+    }
+
+    res.locals.anuncios = await anuncioController.listaAnuncios({
+      filter: filter,
+      skip,
+      limit,
+      sort,
+    });
+    res.render('index');
+  } catch (err) {
+    next(err);
+  }
 });
+
+router.use('/anuncios', anuncios);
+
+// router.use("/users", users);
 
 module.exports = router;
