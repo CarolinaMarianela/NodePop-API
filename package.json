@@ -1,0 +1,17 @@
+
+{
+  "name": "nodepop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "cross-env NODE_ENV=development DEBUG=nodepop:* nodemon",
+    "prod": "cross-env NODE_ENV=production npm start",
+    "installDB": "node ./scripts/install_db.js",
+    "test": "supertest test/*.js"
+  },
+
+  "dependencies": {
+    "mongoose": "^6.8.3"
+  }
+}

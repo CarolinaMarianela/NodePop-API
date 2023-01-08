@@ -1,54 +1,48 @@
 {
   "anuncios": [
     {
-      "nombre": "iPhone 14",
+      "nombre": "iPhone 14 pro max",
       "venta": false,
       "precio": 1400.0,
-      "foto": "iphone.png",
+      "foto": "iphone14.png",
       "tags": ["work", "mobile"]
     },
     {
-      "nombre": "Bicicleta",
+      "nombre": "Bicicleta de Carretera",
       "venta": true,
       "precio": 560.0,
-      "foto": "bici.jpg",
+      "foto": "bicicletaPinarello.jpg",
       "tags": ["lifestyle", "motor"]
     },
 
     {
-      "nombre": "Teclado",
+      "nombre": "Airfryer",
       "venta": true,
       "precio": 105.0,
-      "foto": "teclado.png",
+      "foto": "airFryer.png",
       "tags": ["work", "lifestyle"]
     },
     {
-      "nombre": "Mouse",
+      "nombre": "Depiladora láser",
       "venta": false,
-      "precio": 16.0,
-      "foto": "mouse.png",
-      "tags": ["work", "lifestyle"]
+      "precio": 70.0,
+      "foto": "depilady.png",
+      "tags": ["Beauty", "lifestyle"]
     },
+
     {
-      "nombre": "Audifonos Sony",
+      "nombre": "Set de pesas",
       "venta": true,
-      "precio": 64.0,
-      "foto": "audifonos.png",
+      "precio": 49.90,
+      "foto": "pesas.jpg",
       "tags": ["lifestyle"]
     },
     {
-      "nombre": "Cubo rubik",
+      "nombre": "Tabla de Surf",
       "venta": true,
-      "precio": 6.0,
-      "foto": "cubo_rubik.jpg",
+      "precio": 200.0,
+      "foto": "tabla.png",
       "tags": ["lifestyle"]
-    },
-    {
-      "nombre": "Smartwatch",
-      "venta": true,
-      "precio": 25.0,
-      "foto": "smartwatch.png",
-      "tags": ["mobile", "lifestyle"]
     },
     {
       "nombre": "Mochila",
